@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+}
+body {
+	background: linear-gradient(to right, #150937, #5E2C4E);
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+}
+h1 {
+	color: #FFF;
+	text-align:center;
+	font-size: 100px;
+	margin-top: 100px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #FFF;
+	display: block;
+	width: 300px;
+	height: 50px;
+	margin: 40px auto 0;
+	background: #337AB7;
+	border-radius: 10px;
+	box-shadow: 0 5px 0px 0 #286090;
+}
+a:hover {
+	background: #286090;
+}
+.foot {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 20px;
+	color: #8A8292
+}

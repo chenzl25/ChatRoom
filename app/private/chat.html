@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>chat room</title>
+    <link rel="stylesheet" type="text/css" href="css/chat.css">
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/chat.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="head">
+        <p>Hello: <span id="account"><%=account%><span></p>
+    </div>
+    <div class="content">
+        <div class="left">
+            <p class="describe top">Message:</p>
+            <ul class="messages_list">
+            </ul>
+            <div class="send">
+                <form action="">
+                    <input id="input" type="text" name="message" value="">
+                    <button id="send" type="">Send</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="right">
+            <p class="describe top">online:</p>
+            <ul class="users_list">
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+}
+body {
+	background: linear-gradient(to right, #150937, #5E2C4E);
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	color:white;
+}
+.head {
+	font-size: 20pt;
+	width: 300px;
+	margin: 30px auto 0px;
+}
+.content {
+	position: relative;
+	width:800px;
+	margin: 30px auto 0px;
+}
+.left {
+	width: 496px;
+	height:400px;
+	border: 2px black solid;
+	border-right: 0;
+	float: left; 
+}
+.right {
+	width: 296px;
+	height:400px;
+	border: 2px black solid;
+	float: left; 
+}
+div.send {
+	position: absolute;
+	width: 496px;
+	float: left;
+	clear: left;
+	bottom: -400px;
+	border:0px;
+}
+div.send #input {
+	float: left;
+	width: 400px;
+	height: 30px;
+	border:0px;
+	padding: 0px;
+	background: #C9B7B7;
+	font-size: 16pt;
+}
+div.send button {
+	float: left;
+	width: 96px;
+	height: 30px;
+	border:0px;
+	background: #337AB7;
+	font-size: 16pt;
+}
+div.send button:hover {
+	background: #286090;
+}
+.messages_list ,.users_list {
+	font-size:20pt;
+}
+.messages_list ,.users_list {
+	list-style-type: none;
+}
+.describe {
+	width: 100%;
+	height: 30px;
+	font-size: 25px;
+	text-align: center;
+	margin: 0 auto 0;
+	background: #777;
+}
